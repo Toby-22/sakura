@@ -1,0 +1,38 @@
+section{
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        font-size: 80px;
+        color: #9f0908;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+
+    img{
+        width: 128px;
+        padding-bottom: 16px;
+    }
+}
+
+.order-pics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 56px;
+    font-weight: bold;
+    
+
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p{
+        width: 300px;
+        text-align: center;
+        padding-bottom: 120px;
+    }
+}

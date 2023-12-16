@@ -1,0 +1,21 @@
+a {
+    position: absolute;
+    right: 30px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    color: black;
+    font-weight: bold;
+    margin-top: 15px;
+    &:hover{
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+}
+
+div{
+    padding: 20px;
+    height: calc(100vh - 144px);
+    box-sizing: border-box;
+}
